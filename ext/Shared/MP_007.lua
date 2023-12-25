@@ -1,7 +1,7 @@
-CONFIG['MP_018'] = {
+CONFIG['MP_007'] = {
 	['ConquestSmall0'] = { 
 		SubWorldGuids = {
-			partitionGuid = Guid('AD88A8A6-43E7-464B-918A-54B817A09E6B'), instanceGuid = Guid('FBDBC0F7-8649-4775-8826-E60DE0ED8E81') 
+			partitionGuid = Guid('870CC299-2BC4-4EBC-B854-6219F015D88B'), instanceGuid = Guid('FBDBC0F7-8649-4775-8826-E60DE0ED8E81') 
 		},
 		BundlesToMount = {
 			{ 
@@ -10,7 +10,7 @@ CONFIG['MP_018'] = {
 			{ 
 				SuperBundle = 'Levels/XP3_Desert/XP3_Desert', 
 				Bundles = { 'Levels/XP3_Desert/XP3_Desert', 'Levels/XP3_Desert/RushLarge0' },
-				RegistryGuids = { partitionGuid = Guid('84E193AC-B7A6-4912-A8A4-D8E2544F9778'), instanceGuid = Guid('724E2BD4-CFEB-0C82-3A11-8FC98EFB765E') }
+				RegistryGuids = { partitionGuid = Guid('84E193AC-B7A6-4912-A8A4-D8E2544F9778'), instanceGuid = Guid('020BDB60-EFC1-4BA2-A584-49232CEF970B') }
 			}
 		},
 		VehicleSpawns = {
@@ -18,18 +18,18 @@ CONFIG['MP_018'] = {
 				Blueprint = "Vehicles/A-10_THUNDERBOLT/A10_THUNDERBOLT",
 				InitialSpawnDelay = 0,
 				RespawnDelay = 30,
-				Transform = LinearTransform(Vec3(0.841069, -0.013850, -0.540750), Vec3(0.008259, 0.999884, -0.012763), Vec3(0.540864, 0.006268, 0.841086), Vec3(-228.030670, 111.054115, -830.739075))
+				Transform = LinearTransform(Vec3(-0.4226, 0.0, 0.9063), Vec3(0.0, 1.0, 0.0), Vec3(-0.9063, 0.0, -0.4226), Vec3(-86.0, 145.0, 807.0))
 			},{
 				Blueprint = "Vehicles/SU-25TM/SU-25TM",
 				InitialSpawnDelay = 0,
 				RespawnDelay = 30,
-				Transform = LinearTransform(Vec3(0.934983, -0.061172, -0.349379), Vec3(0.033471, 0.995837, -0.084786), Vec3(0.353111, 0.067580, 0.933138), Vec3(387.265533, 114.693016, 528.841553))
+				Transform = LinearTransform(Vec3(0.7071, 0.0, -0.7071), Vec3(0.0, 1.0, 0.0), Vec3(0.7071, 0.0, 0.7071), Vec3(296.0, 178.0, -406.0))
 			},
 		}
 	},
 	['ConquestLarge0'] = { 
 		SubWorldGuids = {
-			partitionGuid = Guid('6CC0E060-AF87-4A74-9CD2-475B06D8A972'), instanceGuid = Guid('B6B2FDD6-67E7-4ED3-92DB-BA413F52D59A') 
+			partitionGuid = Guid('A5CB1ACA-1444-407E-9155-8170AE917840'), instanceGuid = Guid('34336D6A-88C9-4F9D-AF05-A36019184EB0') 
 		},
 		BundlesToMount = {
 			{ 
@@ -46,12 +46,12 @@ CONFIG['MP_018'] = {
 				Blueprint = "Vehicles/A-10_THUNDERBOLT/A10_THUNDERBOLT",
 				InitialSpawnDelay = 0,
 				RespawnDelay = 30,
-				Transform = LinearTransform(Vec3(0.841069, -0.013850, -0.540750), Vec3(0.008259, 0.999884, -0.012763), Vec3(0.540864, 0.006268, 0.841086), Vec3(-214.530670, 111.054115, -854.121761))
+				Transform = LinearTransform(Vec3(-0.4226, 0.0, 0.9063), Vec3(0.0, 1.0, 0.0), Vec3(-0.9063, 0.0, -0.4226), Vec3(-86.0, 145.0, 807.0))
 			},{
 				Blueprint = "Vehicles/SU-25TM/SU-25TM",
 				InitialSpawnDelay = 0,
 				RespawnDelay = 30,
-				Transform = LinearTransform(Vec3(-0.800881, 0.000000, 0.598824), Vec3(0.000000, 1.000000, 0.000000), Vec3(-0.598824, 0.000000, -0.800881), Vec3(523.609375, 112.577927, 648.953369))
+				Transform = LinearTransform(Vec3(0.7071, 0.0, -0.7071), Vec3(0.0, 1.0, 0.0), Vec3(0.7071, 0.0, 0.7071), Vec3(296.0, 178.0, -406.0))
 			},
 		}
 	}

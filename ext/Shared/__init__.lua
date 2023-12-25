@@ -4,6 +4,13 @@ require("__shared/MP_003") -- Teheran Highway
 require("__shared/MP_012") -- Operation Firestorm
 require("__shared/MP_018") -- Kharg Island
 require("__shared/XP5_002") -- Nebandan Flats
+require("__shared/MP_007")
+require("__shared/XP1_002")
+require("__shared/XP1_004")
+require("__shared/XP3_Desert")
+require("__shared/XP3_Valley")
+require("__shared/XP3_Alborz")
+require("__shared/XP5_004")
 
 
 local networkIndex
